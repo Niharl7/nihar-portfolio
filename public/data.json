@@ -101,6 +101,35 @@
     }
   ],
 
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Aurionpro",
+      "role": "Software Engineer",
+      "startDate": "May 2022",
+      "endDate": "Aug 2023",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "AWS",
+        "Azure",
+        "GitLab CI",
+        "SQL",
+        "JUnit",
+        "Mockito"
+      ],
+      "keyResponsibilities": [
+        "Engineered Java/Spring Boot microservices and RESTful APIs to streamline internal workflows.",
+        "Containerized 12 services with Docker and deployed on AWS ECS and Azure App Service, sustaining 99.9% uptime.",
+        "Orchestrated CI/CD pipelines in Jenkins and GitLab CI, reducing manual deployment effort by 90%.",
+        "Authored comprehensive JUnit and Mockito test suites, bringing code coverage up to 95%.",
+        "Worked in two-week agile sprints with product and design teams to release new features on schedule.",
+        "Refined SQL schemas and optimized complex queries, improving database performance and lowering latency."
+      ]
+    }
+  ],
+
   "education": [
     {
       "id": "1",

@@ -172,8 +172,9 @@ export default async function Home() {
               </div>
 
               <div className="mt-2">
-                <h6 className="font-medium">Key Responsibilities:</h6>
-                <ul className="text-gray-500 text-sm list-disc pl-4">
+                <h5 className="font-medium">Key Responsibilities:</h5>
+                <ul className="text-gray-500 dark:text-gray-400 text-sm md:text-base list-disc pl-4 space-y-1.5">
+
                   {exp.keyResponsibilities.map((resp) => (
                     <li key={resp}>{resp}</li>
                   ))}
@@ -214,7 +215,11 @@ export default async function Home() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription>{project.description}</CardDescription>
+                  <ul className="list-disc pl-5 text-muted-foreground text-sm space-y-1">
+                    {project.description.split("\n").map((point, idx) => (
+                      <li key={idx}>{point.replace(/^•\s?/, "")}</li>
+                    ))}
+                  </ul>
                 </CardContent>
                 <CardFooter>
                   <div className="flex space-x-3">
