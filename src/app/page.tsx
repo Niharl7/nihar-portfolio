@@ -58,59 +58,48 @@ export default async function Home() {
               )}
             </div>
 
-            <div className="space-x-4">
-              {data.contactInfo.github && (
-                <a
-                  href={data.contactInfo.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="secondary" size="icon">
-                    <GitHubLogoIcon className="h-4 w-4" />
-                  </Button>
-                </a>
-              )}
-              {data.contactInfo.twitter && (
-                <a
-                  href={data.contactInfo.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="secondary" size="icon">
-                    <TwitterLogoIcon className="h-4 w-4" />
-                  </Button>
-                </a>
-              )}
-              {data.contactInfo.linkedin && (
-                <a
-                  href={data.contactInfo.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="secondary" size="icon">
-                    <LinkedInLogoIcon className="h-4 w-4" />
-                  </Button>
-                </a>
-              )}
-              {data.contactInfo.email && (
-                <Link href={`mailto:${data.contactInfo.email}`}>
-                  <Button variant="secondary" size="icon">
-                    <EnvelopeClosedIcon className="h-4 w-4" />
-                  </Button>
-                </Link>
-              )}
-              <a
-                href="/resume.pdf"
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="secondary">
-                  <FileDownIcon className="h-4 w-4 mr-2" />
-                  Download Resume
-                </Button>
-              </a>
-            </div>
+            <div className="flex flex-wrap items-center gap-3">
+  {data.contactInfo.github && (
+    <a
+      href={data.contactInfo.github}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button variant="secondary" size="icon">
+        <GitHubLogoIcon className="h-4 w-4" />
+      </Button>
+    </a>
+  )}
+  {data.contactInfo.linkedin && (
+    <a
+      href={data.contactInfo.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button variant="secondary" size="icon">
+        <LinkedInLogoIcon className="h-4 w-4" />
+      </Button>
+    </a>
+  )}
+  {data.contactInfo.email && (
+    <Link href={`mailto:${data.contactInfo.email}`}>
+      <Button variant="secondary" size="icon">
+        <EnvelopeClosedIcon className="h-4 w-4" />
+      </Button>
+    </Link>
+  )}
+  <a
+    href="/resume.pdf"
+    download
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="secondary" className="flex items-center gap-2 px-4 py-2">
+      <FileDownIcon className="h-4 w-4" />
+      <span>Download Resume</span>
+    </Button>
+  </a>
+</div>
           </div>
         </div>
       </section>
