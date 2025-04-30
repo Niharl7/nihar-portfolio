@@ -12,7 +12,6 @@ export interface HomeSections {
   experience: boolean;
   project: boolean;
   education: boolean;
-  testimonial: boolean;
 }
 
 export interface Home {
@@ -75,16 +74,6 @@ export interface Education {
   startDate: string;
   endDate: string;
 }
-
-export interface Testimonial {
-  id: string;
-  name: string;
-  avatar: string;
-  title: string;
-  company: string;
-  feedback: string;
-}
-
 export interface Certification {
   title: string;
   institution: string;
@@ -100,6 +89,5 @@ export interface Data {
   education: Education[];
   certifications: Certification[];
   hobbies: string[];
-  testimonials: Testimonial[];
   visual: Visual;
 }

@@ -13,14 +13,6 @@
         {
           "label": "Education",
           "path": "#education"
-        },
-        {
-          "label": "Testimonials",
-          "path": "#testimonials"
-        },
-        {
-          "label": "Blogs",
-          "path": "#blogs"
         }
       ]
     },
@@ -29,128 +21,130 @@
         "banner": true,
         "experience": true,
         "project": true,
-        "education": true,
-        "testimonial": true
+        "education": true
       }
     }
   },
   "personalInfo": {
-    "name": "Arif Hossain",
-    "title": "Full Stack Developer",
-    "location": "Dhaka, Bangladesh",
-    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+    "name": "Nihar Lodaya",
+    "title": "Software Developer",
+    "location": "New York",
+    "bio": [
+      "Cloud-native, ML-curious, full-stack builder who can’t resist a good side project. Most days you’ll catch me architecting resilient Java/Spring microservices and polishing React front-ends so users never feel the plumbing underneath.",
+      "I love turning rough ideas into reliable, scalable software—shipped fast, tested well, and ready to evolve. If something breaks, I fix it, document it, and share the lesson.",
+      "Away from the keyboard, you’ll find me reading, buried in movies or hunting for the perfect espresso.",
+      "Got an idea that needs scalable backends, machine-learning smarts, or just an extra set of curious eyes? Let’s connect and build something great together."
+    ]
   },
   "contactInfo": {
-    "email": "devarifhossain@gmail.com",
-    "phone": "123-456-7890",
-    "linkedin": "https://www.linkedin.com/in/ariflogs/",
-    "github": "https://github.com/ariflogs",
-    "twitter": "https://twitter.com/ariflogs",
-    "website": "https://johndoe.dev"
+    "email": "niharlodaya7@gmail.com",
+    "phone": "+1 347-494-9434",
+    "linkedin": "https://www.linkedin.com/niharlodaya",
+    "github": "https://github.com/niharl7"
   },
   "skills": {
-    "languages": ["JavaScript", "Python", "Java", "C++"],
-    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
+    "languages": ["Java", "Python", "C++", "JavaScript", "HTML", "CSS"],
+    "frameworks": [
+      "Spring boot",
+      "ReactJS",
+      "NextJS",
+      "NodeJS",
+      "TensorFlow",
+      "Flask"
+    ],
     "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+    "tools": ["AWS", "Docker", "Postman", "Git", "Azure"]
   },
   "projects": [
     {
       "id": "1",
-      "title": "Makers Tracker",
-      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "MySQL"],
-      "live_url": "https://makerstracker.com",
-      "code_repo_url": "https://makerstracker.com",
-      "cover": "/assets/project_1.jpeg"
+      "title": "Emotune: Audio Emotion Analyzer",
+      "description": "• Trained a 1D-CNN on the RAVDESS dataset (2,440 audio clips across 8 emotions), extracting 40 MFCC features per sample\n• Achieved 94.8% accuracy and 0.95 macro F1-score on the test set after 50 epochs, reducing preprocessing time by 20% through optimized pipelines\n• Implemented dropout (0.2) and max-pooling layers to prevent overfitting, boosting minority-class F1 by 12%\n• Visualized performance with confusion matrix and classification report, ensuring > 90% recall across all emotion classes",
+      "technologies": [
+        "Python 3",
+        "TensorFlow 2 / Keras",
+        "Librosa",
+        "scikit-learn",
+        "Matplotlib",
+        "Pandas",
+        "Google Colab",
+        "Jupyter Notebook"
+      ],
+      "live_url": "https://colab.research.google.com/drive/1QXXU1YbXCO88pFbTMRvWO19tuFE1IF3S?usp=sharing",  
+       "cover": "/assets/project_1.jpeg"
     },
     {
       "id": "2",
-      "title": "Pricing Bees",
-      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
-      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
-      "live_url": "https://pricingbees.com",
-      "code_repo_url": "https://pricingbees.com",
+      "title": "The Hero’s Journey – 2D Action-Adventure Game",
+      "description": "• Built a 4-level Processing side-scroller in 3 months with platforming, upgrades, and a final boss\n• Crafted varied levels (forest, cave, castle, village) to boost player immersion\n• Added checkpoints and story cards, cutting restarts by 30 % and maintaining a stable 60 FPS on Mac and Windows\n• Authored design docs and QA reports to streamline collaboration",
+      "technologies": ["Java", "Processing", "Git", "Tiled Map Editor"],
+      "live_url": "",
       "cover": "/assets/project_2.jpeg"
     },
     {
       "id": "3",
-      "title": "Indie Hustles",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "title": "Getaway – Hotel-Booking Web App",
+      "description": "• Independently developed an online hotel-booking platform in three weeks\n• Leveraged Next.js, React, Redux, Express, Node.js, MongoDB, Cloudinary, and Stripe; deployed on Vercel\n• Delivered intuitive navigation, secure Stripe-integrated payments, and efficient MongoDB data management",
+      "technologies": [
+        "Next.js",
+        "React.js",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Cloudinary",
+        "Stripe",
+        "Vercel"
+      ],
+      "live_url": "https://getaway.vercel.app",
       "cover": "/assets/project_3.jpeg"
     }
   ],
   "workExperience": [
     {
       "id": "1",
-      "company": "Tech Corp",
-      "companyWebsite": "https://example.com",
-      "role": "Senior Full Stack Developer",
-      "startDate": "Jan 2020",
-      "endDate": "Present",
-      "technologies": ["Socket.io", "Node.js", "Express", "React"],
+      "company": "Aurionpro",
+      "role": "Software Engineer",
+      "startDate": "May 2022",
+      "endDate": "Aug 2023",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "AWS",
+        "Azure",
+        "GitLab CI",
+        "SQL",
+        "JUnit",
+        "Mockito"
+      ],
       "keyResponsibilities": [
-        "Led a team of developers to create scalable web applications.",
-        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
-        "Developed front-end applications using React and Next.js.",
-        "Integrated third-party services and APIs to enhance application functionality.",
-        "Mentored junior developers and conducted code reviews."
-      ]
-    },
-    {
-      "id": "2",
-      "company": "Web Solutions",
-      "companyWebsite": "https://example.com",
-      "role": "Full Stack Developer",
-      "startDate": "Jun 2017",
-      "endDate": "Dec 2019",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
-      "keyResponsibilities": [
-        "Designed and developed web applications using JavaScript and React.",
-        "Built and maintained server-side APIs with Node.js and Express.",
-        "Collaborated with cross-functional teams to deliver high-quality products.",
-        "Ensured applications are responsive and performant.",
-        "Participated in Agile ceremonies and contributed to project planning."
+        "Engineered Java/Spring Boot microservices and RESTful APIs to streamline internal workflows.",
+        "Containerized 12 services with Docker and deployed on AWS ECS and Azure App Service, sustaining 99.9 % uptime.",
+        "Orchestrated CI/CD pipelines in Jenkins and GitLab CI, reducing manual deployment effort by 90 %.",
+        "Authored comprehensive JUnit and Mockito test suites, bringing code-coverage up to 95 %.",
+        "Worked in two-week agile sprints with product and design teams to release new features on schedule.",
+        "Refined SQL schemas and optimized complex queries, improving database performance and lowering latency."
       ]
     }
   ],
+
   "education": [
     {
       "id": "1",
-      "institution": "Coursera",
-      "degree": "Full Stack Web Development with React",
-      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "Marist University",
+      "degree": "Master of Science in Computer Science (Software Development)",
+      "description": "Graduate program emphasizing cloud-native software development, AI/ML, and scalable microservices. Relevant coursework: Artificial Intelligence, Cloud Computing, Data structures and Algorithms. Current GPA: 3.63.",
+      "startDate": "Aug 2023",
+      "endDate": "May 2025"
     },
     {
       "id": "2",
-      "institution": "University of California, Berkeley",
+      "institution": "Mumbai University",
       "degree": "Bachelor of Science in Computer Science",
-      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
-    }
-  ],
-  "testimonials": [
-    {
-      "id": "1",
-      "name": "Jane Smith",
-      "avatar": "/assets/testimonial_1_avatar.jpg",
-      "title": "Project Manager",
-      "company": "Tech Solutions Inc.",
-      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
-    },
-    {
-      "id": "2",
-      "name": "Mike Johnson",
-      "avatar": "/assets/testimonial_2_avatar.jpg",
-      "title": "CEO",
-      "company": "Web Innovators LLC",
-      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+      "description": "Completed foundational curriculum covering data structures, algorithms, database management, and software engineering. Led capstone project on mobile-first e-commerce platform.",
+      "startDate": "Jul 2019",
+      "endDate": "May 2022"
     }
   ]
 }
