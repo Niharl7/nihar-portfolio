@@ -70,13 +70,13 @@
         "Google Colab",
         "Jupyter Notebook"
       ],
-      "live_url": "https://colab.research.google.com/drive/1QXXU1YbXCO88pFbTMRvWO19tuFE1IF3S?usp=sharing",  
-       "cover": "/assets/project_1.jpeg"
+      "live_url": "https://colab.research.google.com/drive/1QXXU1YbXCO88pFbTMRvWO19tuFE1IF3S?usp=sharing",
+      "cover": "/assets/project_1.jpeg"
     },
     {
       "id": "2",
       "title": "The Hero’s Journey – 2D Action-Adventure Game",
-      "description": "• Built a 4-level Processing side-scroller in 3 months with platforming, upgrades, and a final boss\n• Crafted varied levels (forest, cave, castle, village) to boost player immersion\n• Added checkpoints and story cards, cutting restarts by 30 % and maintaining a stable 60 FPS on Mac and Windows\n• Authored design docs and QA reports to streamline collaboration",
+      "description": "• Built a 4-level Processing side-scroller in 3 months with platforming, upgrades, and a final boss\n• Crafted varied levels (forest, cave, castle, village) to boost player immersion\n• Added checkpoints and story cards, cutting restarts by 30% and maintaining a stable 60 FPS on Mac and Windows\n• Authored design docs and QA reports to streamline collaboration",
       "technologies": ["Java", "Processing", "Git", "Tiled Map Editor"],
       "live_url": "",
       "cover": "/assets/project_2.jpeg"
@@ -98,34 +98,6 @@
       ],
       "live_url": "https://getaway.vercel.app",
       "cover": "/assets/project_3.jpeg"
-    }
-  ],
-  "workExperience": [
-    {
-      "id": "1",
-      "company": "Aurionpro",
-      "role": "Software Engineer",
-      "startDate": "May 2022",
-      "endDate": "Aug 2023",
-      "technologies": [
-        "Java",
-        "Spring Boot",
-        "Docker",
-        "AWS",
-        "Azure",
-        "GitLab CI",
-        "SQL",
-        "JUnit",
-        "Mockito"
-      ],
-      "keyResponsibilities": [
-        "Engineered Java/Spring Boot microservices and RESTful APIs to streamline internal workflows.",
-        "Containerized 12 services with Docker and deployed on AWS ECS and Azure App Service, sustaining 99.9 % uptime.",
-        "Orchestrated CI/CD pipelines in Jenkins and GitLab CI, reducing manual deployment effort by 90 %.",
-        "Authored comprehensive JUnit and Mockito test suites, bringing code-coverage up to 95 %.",
-        "Worked in two-week agile sprints with product and design teams to release new features on schedule.",
-        "Refined SQL schemas and optimized complex queries, improving database performance and lowering latency."
-      ]
     }
   ],
 
