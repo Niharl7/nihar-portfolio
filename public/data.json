@@ -120,12 +120,11 @@
         "Mockito"
       ],
       "keyResponsibilities": [
-        "Engineered Java/Spring Boot microservices and RESTful APIs to streamline internal workflows.",
-        "Containerized 12 services with Docker and deployed on AWS ECS and Azure App Service, sustaining 99.9% uptime.",
-        "Orchestrated CI/CD pipelines in Jenkins and GitLab CI, reducing manual deployment effort by 90%.",
-        "Authored comprehensive JUnit and Mockito test suites, bringing code coverage up to 95%.",
-        "Worked in two-week agile sprints with product and design teams to release new features on schedule.",
-        "Refined SQL schemas and optimized complex queries, improving database performance and lowering latency."
+        "Engineered and maintained Java/Spring Boot applications and RESTful APIs for multiple enterprise clients, enabling secure processing of ~400K daily transactions",
+        "Designed and deployed 12+ microservices on AWS and Oracle Cloud using Docker and Kubernetes, reducing release cycles by 40% via automated CI/CD with Jenkins.",
+        "Partnered with Agile teams to deliver 30+ product features with a 95% on-time release rate, improving delivery speed and stakeholder satisfaction",
+        "Improved SQL query performance and backend architecture, cutting average API response times by 35% and reducing production issues by 40%",
+        "Built real-time socket communication modules, increasing transaction throughput by 20% during high-load periods while maintaining system stability"
       ]
     }
   ],
