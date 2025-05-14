@@ -98,7 +98,24 @@
       ],
       "live_url": "https://getaway.vercel.app",
       "cover": "/assets/project_3.jpeg"
-    }
+    },
+    {
+      "id": "4",
+      "title": "JavaMovieDatabaseApp",
+      "description": "• Created a full-stack movie management platform, building a Java Spring Boot RESTful API backend connected to a JavaFX user interface\n• Implemented critical functionalities like user authentication (session-based), CRUD operations for movie listings, user-generated reviews, and role-defined access (Admin/User)\n• Employed Spring Data JPA for MySQL data persistence within an MVC structure and established robust security protocols with Spring Security",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Data JPA",
+        "MySQL",
+        "JavaFX",
+        "MVC",
+        "REST API"
+      ],
+      "code_repo_url": "https://github.com/Niharl7/JavaMovieDatabaseApp",
+      "cover": "/assets/project_4.jpeg"
+    }    
   ],
 
   "workExperience": [
@@ -120,14 +137,13 @@
         "Mockito"
       ],
       "keyResponsibilities": [
-
-        "Engineered and maintained Java/Spring Boot applications and RESTful APIs for multiple enterprise clients, enabling secure processing of ~400K daily transactions",
-        "Designed and deployed 12+ microservices on AWS and Oracle Cloud using Docker and Kubernetes, reducing release cycles by 40% via automated CI/CD with Jenkins.",
-        "Partnered with Agile teams to deliver 30+ product features with a 95% on-time release rate, improving delivery speed and stakeholder satisfaction",
-        "Improved SQL query performance and backend architecture, cutting average API response times by 35% and reducing production issues by 40%",
-        "Built real-time socket communication modules, increasing transaction throughput by 20% during high-load periods while maintaining system stability"
+        "Engineered and maintained enterprise-grade Java/Spring Boot applications and RESTful APIs, enabling secure processing of ~400K daily transactions with session management and real-time socket modules",
+        "Designed and deployed 12+ containerized microservices on AWS and Oracle Cloud using Docker, Kubernetes, and Helm, accelerating delivery by 40% through CI/CD pipelines built in Jenkins.",
+        "Partnered with cross-functional Agile teams to ship 30+ features with a 95% on-time release rate, leading sprint planning, backlog grooming, and release coordination across environments",
+        "Refactored backend architecture and optimized SQL/NoSQL queries, improving average API response times by 35%, cutting production issues by 40%, and enhancing autoscaling during traffic spikes.",
+        "Integrated monitoring and alerting with Prometheus, Grafana, and ELK stack to reduce mean time to detect (MTTD) and downtime by 25%, streamlining debugging with custom dashboards.",
+        "Collaborated with security and DevOps teams to implement SSO-based authentication, RBAC, and encryption protocols, ensuring end-to-end compliance with enterprise data protection standards."
       ]
-
     }
   ],
 
