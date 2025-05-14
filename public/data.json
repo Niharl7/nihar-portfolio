@@ -39,7 +39,7 @@
   "contactInfo": {
     "email": "niharlodaya7@gmail.com",
     "phone": "+1 347-494-9434",
-    "linkedin": "https://www.linkedin.com/niharlodaya",
+    "linkedin": "https://www.linkedin.com/in/niharlodaya",
     "github": "https://github.com/niharl7"
   },
   "skills": {
@@ -120,12 +120,14 @@
         "Mockito"
       ],
       "keyResponsibilities": [
+
         "Engineered and maintained Java/Spring Boot applications and RESTful APIs for multiple enterprise clients, enabling secure processing of ~400K daily transactions",
         "Designed and deployed 12+ microservices on AWS and Oracle Cloud using Docker and Kubernetes, reducing release cycles by 40% via automated CI/CD with Jenkins.",
         "Partnered with Agile teams to deliver 30+ product features with a 95% on-time release rate, improving delivery speed and stakeholder satisfaction",
         "Improved SQL query performance and backend architecture, cutting average API response times by 35% and reducing production issues by 40%",
         "Built real-time socket communication modules, increasing transaction throughput by 20% during high-load periods while maintaining system stability"
       ]
+
     }
   ],
 
